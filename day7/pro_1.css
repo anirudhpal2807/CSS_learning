@@ -1,0 +1,28 @@
+.box{
+    width: 300px;
+    height: 350px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+img{
+    border-radius: 22px;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.box3{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: larger;
+    margin-left: 10px;
+}
+.box5{
+    display: inline-block;
+    color: rgb(248, 9, 9);
+    margin-left: 98px;
+}
+.box4{
+    margin-left: 20px;
+}

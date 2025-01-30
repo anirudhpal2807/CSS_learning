@@ -1,0 +1,203 @@
+ *{margin: 0;}
+ body{
+    background-color: rgb(251, 241, 241);
+ }
+ .card:hover{
+    background-color: white;
+   border-color: white;
+   border-radius: 8px;
+ }
+ .off{
+    font-size: 25px;
+    color: white;
+    background-color: rgba(234, 9, 9, 0.7);
+    border-radius: ;
+    
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+
+ }
+ .off:hover{
+    background-color: greenyellow;
+ }
+ .ima{
+    position: relative;
+ }
+ .card{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 7px;
+    cursor: pointer;
+    margin-right: 5px;
+    border: 10px solid rgb(251, 241, 241);
+ }
+ .box{
+    display: inline-block;
+}
+.img{
+    height: 250px;
+    width: auto;
+    border-radius: 15px;
+    
+}
+.restorent,.food,.location{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.restorent_name{
+    font-size: 22px;
+    font-weight: bold;
+}
+.rating{
+    background-color: green;
+    border-radius: 8px;
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+    right: 5px;
+    color: white;
+
+}
+/* .food{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+} */
+.foodname{
+    
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(122, 116, 116);
+}
+.foodprice{
+    position: absolute;
+    right: 5px;
+    font-size: 18px;
+    font-weight: lighter;
+    
+}
+.locationname{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(155, 147, 147);
+    float: auto;
+}
+.locationdis{
+    position: absolute;
+    right: 5px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.sec{
+    position: relative;
+    display: inline-block;
+    
+}
+.a{
+    display: inline-block;
+    
+}
+.img1{
+    
+    height: 50px;
+    width: auto;
+    border-radius: 1px;
+    
+}
+.Dinning{
+    background-color: red;
+    margin-right: 150px;
+}
+.delivery{
+    margin-right: 150px;
+
+}
+.first{
+    margin-left: 20px;
+}
+.brand{
+    color: red;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.searching{
+    height: 30px;
+    width: 400px;
+    position: relative;
+    bottom: 5px;
+    
+    
+}
+.header{
+    background-color: white;
+}
+
+button{
+    margin-right: 50px;
+    position: relative;
+   top: 15px;
+    float: right;
+    width: 100px;
+    height: 40px;
+    bottom: 15px;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+}
+.signup{
+   
+ position: relative;
+ bottom: 16px;
+  
+    
+}
+.button1{
+    position: relative;
+    bottom: 16px;
+}
+.img3{
+    width: 40px;
+    height: 40px;
+}
+.dine,.deli,.night{
+    position: relative;
+   bottom: 12px;
+   left: 5px;
+   color: rgb(102, 98, 98);
+   right: 5px;
+   
+}
+.delivery{
+    position: relative;
+    margin-left: 75px;
+}
+.first{
+    position: relative;
+    margin-bottom: 50px;
+}
+.third{
+    background-color: grey;
+    height: 500px;
+    width: auto;
+}
+.second{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+.dining{
+    margin-left: 20px;
+}
+.delivery{
+    margin-left: 100px;
+}
+.nightlife{
+    margin-left: 97px;
+}

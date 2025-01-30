@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+   
+    
+}
+.first{
+    color: white;
+    background-color: rgb(198, 36, 36);
+    border: 0.1rem solid black;
+
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.right button{
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    
+}
+.second{
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(185, 177, 177);
+
+}
+.searchig{
+    width: 550px;
+    max-width: 60%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+}
+.search{
+    margin-left: 0.2rem;
+    font-size: 1rem;
+    background-color: rgb(215, 46, 46);
+    color: black;
+    padding: 0.5rem;
+    border-radius: 10px;
+
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./cenema.jpg);
+    padding: 2rem 0rem;
+}
+.hero > h2{
+    color: black;
+}
+.hero > button{
+    background-color: red;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mover{
+    text-align: center;
+    padding: 1rem;
+}
+.mover>h2{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.images{
+    height: 400px;
+
+}
+.card{
+    border: 0.4rem solid rgb(182, 176, 176);
+    background-color: rgb(182, 176, 176);
+   text-align: center;
+   margin-left: 1rem;
+   border-radius: 0.5rem;
+}
+.Movie{
+    display: flex;
+    overflow-x: scroll;
+}
+.card>h3{
+    font-size: 2rem;
+}
+.bottom{
+    margin-top: 2rem;
+    text-align: center;
+}
+.bottom>img{
+    max-width: 80%;
+    border-radius: 10px;
+}
+@media (max-width:650px)  {
+    .first{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+        display: flex;
+        padding-top: 1rem;
+    }
+    .Movie{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .searchig{
+        align-items: center;
+        max-width: 50%;
+        justify-content: center;
+        margin-left: 2rem;
+    }
+    .search{
+        align-items: center;
+    }
+}

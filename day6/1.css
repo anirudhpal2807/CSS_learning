@@ -1,0 +1,43 @@
+.container{
+    background-color: rgb(228, 228, 48);
+    margin-left: 200px;
+    height: 4000px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.box1{
+    position: relative;
+    top: 30px;
+    right: 30px;
+    /* move from original position */
+    display: inline-block;
+    background-color: aqua;
+    
+}
+.box2{
+    position:absolute;
+    z-index: -1;
+    top:4px;
+    left:8px;
+    display: inline-block;
+    background-color: rgb(8, 234, 87);
+}
+.box3{
+    display: inline-block;
+    position: fixed;
+    background-color: rgb(49, 8, 214);
+    right: 10px;
+    
+}
+.box4{
+    display: inline-block;
+    background-color: rgb(207, 23, 26);
+    position: sticky;
+    top: 30px;
+}
+.secondcontainer{
+    background-color: chartreuse;
+    height: 2000px;
+}

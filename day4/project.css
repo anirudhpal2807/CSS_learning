@@ -1,0 +1,33 @@
+.card{
+    background-color: silver;
+    border: 5px black solid;
+    padding: 40px;
+    height: 100px;
+    width: 300px;
+    margin: 200px 200px 200px 35vw ;
+
+}
+h2{
+    color:chartreuse;
+    text-align: center;
+    background-color: antiquewhite ;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(32, 188, 188);
+    border: 1=px;
+}
+.card:hover{
+    background-color: brown;
+}
+.card:hover h3{
+    background-color: coral;
+    border-radius: 10px;
+    text-align: center;
+}
+.card:hover{
+    transform:scale(1.2);
+}

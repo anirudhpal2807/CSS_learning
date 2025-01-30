@@ -1,0 +1,20 @@
+.first{
+    background-color: aqua;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    margin: 19px;
+
+}
+.second{
+    background-color: bisque;
+}
+span{
+    background-color: rgb(157, 157, 209);
+    display: block; 
+}
+/* block element ko hum height width margin de sakte h
+ */
+ /* in line ko hum height width nhi de sakte h 
+ aur margin bhi khali horizontal de sakte h */
+ /*  display ko hum agar inline or block chahte h to display block lga sakte h */

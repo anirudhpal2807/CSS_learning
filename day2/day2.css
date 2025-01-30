@@ -1,0 +1,23 @@
+h1 {
+    color:rgb(246, 9, 255);
+    background-color: rgb(246, 199, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 41px;
+}
+/* color change by rgb */
+h2{
+    color:#12ab3e;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* hexadecimal */
+p{ color:hsl(100, 81%, 59%);
+background-color:rgb(237, 11, 11);}
+/* color change of element by four method (name,rgb,hexadecimal,hsl */
+.first{color: rgba(156,212,319,0.98);}
+/* a is for obisity */
+body{
+    background-color: rgb(72, 159, 235);
+    background-image: url(./IMG-20240809-WA0009.jpg);
+    background-size: cover;
+    background-repeat: no-repeat repeat-x;
+}

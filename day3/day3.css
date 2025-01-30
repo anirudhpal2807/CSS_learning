@@ -1,0 +1,24 @@
+h1{
+    font-size: 10vw;
+}
+h1{
+    font-weight: 1;
+}
+h1{font-style: italic;}
+/* percentage of view code */
+p{
+    line-height: 35px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+h1{
+    text-transform: uppercase;
+}
+/* font stretch */
+h2{
+    font-stretch: ultra-expanded;
+}
+/* font varient */
+h2{
+    font-variant: small-caps;
+}

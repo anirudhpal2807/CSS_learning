@@ -1,0 +1,19 @@
+h1{
+    background-color: aqua;
+    color: orange;
+    text-align: right;
+}
+p{
+    background-color: chartreuse;
+    text-align-last: left;
+}
+.first{
+    /* direction: rtl;
+    unicode-bidi: bidi-override;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: overline underline;
+    text-decoration: ; */
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+}

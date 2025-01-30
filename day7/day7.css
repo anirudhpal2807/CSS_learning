@@ -1,0 +1,32 @@
+.box{
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    background-color: rgb(220, 220, 52);
+   
+}
+.container{
+    background-color: rgb(200, 22, 192);
+    
+}
+.box1{
+    background-color: red;
+    position: relative;
+    left: 250px;
+    z-index: 3;
+}
+.box2{
+    background-color: rgb(12, 245, 16);
+    position: relative;
+    left:15px;
+    top:20px;
+     z-index: 2;
+}
+.box3{
+    background-color: rgb(35, 12, 210);
+    position: relative;
+    z-index: 1;
+}
+.box4{
+    background-color: rgb(195, 158, 158);
+}

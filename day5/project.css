@@ -1,0 +1,70 @@
+ /* *{
+    margin: 0px;
+ }
+
+.first{
+    height: 100px;
+    width: 25vw;
+    height: 35vh;
+    background-color: red;
+    display: inline-block;
+    
+
+    
+
+}
+.third{
+    height: 100px;
+    width: 25vw;
+    height: 35vh;
+    background-color: red;
+    display: inline-block;
+
+    margin-top: 25px;
+    /
+}
+.second{
+    height: 100px;
+    width: 60vw;
+    height: 35vh;
+    background-color: red;
+    display: inline-block;
+    margin-left: 15vw;
+   
+}
+.fourth{
+    height: 100px;
+    width: 60vw;
+    height: 35vh;
+    background-color: red;
+    display: inline-block;
+    margin-left:15px ;
+    margin-top: 25px;
+    
+
+} */
+ *{
+    margin: 0;
+}
+
+.first, .third{
+   display: inline-block;
+   height: 40vh;
+   width: 25vw;
+   background-color: red;
+}
+
+.second, .fourth{
+    display: inline-block;
+    height: 40vh;
+    width: 60vw;
+    background-color: red;
+}
+
+.second, .fourth{
+    margin-left: 12vw;
+}
+
+.third, .fourth{
+    margin-top: 20vh;
+}

@@ -1,0 +1,51 @@
+.container{
+    background-color: bisque;
+    height: 1000px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row;
+    justify-content: space-evenly; */
+    
+    flex-direction:row ;
+    /* align-items: baseline; */
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+    align-content: space-evenly;
+    
+    
+.box{
+   
+    height: 150px;
+   width: 150px;
+    border: 5px solid black;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    
+    
+}
+.box1{
+    background-color: chartreuse;
+    
+}
+.box2{
+    background-color: rgb(255, 0, 0);
+   
+}
+.box3{
+    background-color: rgb(245, 233, 6);
+}
+.box4{
+    background-color: rgb(6, 244, 240);
+}
+.box5{
+    background-color: rgb(131, 90, 236);
+}
+/* .second{
+    font-size: 200px;
+}
+.first{
+    font-size: 100px;
+} */

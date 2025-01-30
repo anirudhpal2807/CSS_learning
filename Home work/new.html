@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .news-app {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 90%;
+            max-width: 700px;
+        }
+        .news-app h1 {
+            font-size: 28px;
+            color: #ff6f61;
+            margin-bottom: 20px;
+        }
+        .news-app input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 2px solid #ff6f61;
+            border-radius: 25px;
+            outline: none;
+            font-size: 16px;
+        }
+        .news-app button {
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: transform 0.2s ease;
+        }
+        .news-app button:hover {
+            transform: scale(1.05);
+        }
+        .news-list {
+            margin-top: 20px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .news-item {
+            background: #ffefef;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .news-item h3 {
+            font-size: 20px;
+            margin: 0 0 10px;
+            color: #ff6f61;
+        }
+        .news-item h3 a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.3s;
+        }
+        .news-item h3 a:hover {
+            color: #ff3b3f;
+        }
+        .news-item p {
+            margin: 0;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="news-app">
+        <h1>Daily News</h1>
+        <input type="text" id="query" placeholder="Enter keyword (e.g., Technology)">
+        <button onclick="getNews()">Get News</button>
+        <div class="news-list" id="news-list">
+            <!-- News articles will appear here -->
+        </div>
+    </div>
+
+    <script>
+        async function getNews() {
+            const query = document.getElementById('query').value;
+            if (!query) {
+                alert('Please enter a keyword!');
+                return;
+            }
+
+            const apiKey = '4a0184d9215f444b9ab1a513acac8128';
+            const url = `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&apiKey=${apiKey}`;
+
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error('Failed to fetch news');
+                }
+                const data = await response.json();
+
+                const newsList = document.getElementById('news-list');
+                newsList.innerHTML = '';
+
+                if (data.articles.length === 0) {
+                    newsList.innerHTML = '<p>No news articles found for this keyword.</p>';
+                    return;
+                }
+
+                data.articles.forEach(article => {
+                    const newsItem = document.createElement('div');
+                    newsItem.className = 'news-item';
+                    newsItem.innerHTML = `
+                        <h3><a href="${article.url}" target="_blank">${article.title}</a></h3>
+                        <p>${article.description || 'No description available.'}</p>
+                    `;
+                    newsList.appendChild(newsItem);
+                });
+            } catch (error) {
+                alert(error.message);
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+.first{
+    display: inline-block;
+    height: 100vh;
+    width: 30vw;
+    background-color: green;
+}
+.second{
+    display: inline-block;
+    height: 100vh;
+    width: 30vw;
+    background-color: rgb(231, 240, 231);
+}
+.third{
+    display: inline-block;
+    height: 100vh;
+    width: 33vw;
+    background-color: rgb(225, 116, 14);
+}

@@ -1,0 +1,19 @@
+/* element tag */
+h1{ background-color: aqua;}
+/*  id is more specific */
+#first_id{ background-color: antiquewhite;}
+/* class */
+.first_class{
+    background-color: rgb(152, 48, 48);
+}
+/* h1 tag */
+h1{ background-color: aqua;}
+/* h1 draggable tag */
+h1[draggable="true"]{
+    background-color: aqua;
+}
+/* desendant */
+body h1{background-color: blue;}
+/* child */
+body>h1{background-color: chocolate;}
+#first_id{font-family: "Meow Script", serif;}

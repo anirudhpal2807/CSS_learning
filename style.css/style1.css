@@ -1,0 +1,29 @@
+h1{
+    color: aqua ;
+    background-color: red;
+    font-size: larger;
+    font-style: oblique;
+    font-feature-settings: "blwf";
+   
+    ;
+}
+/* select by tag */
+ul{ color: blue;
+    background: scroll;
+    background-color: aquamarine;
+
+}
+/* select by tag */
+li{
+    background-color: blueviolet;
+}
+/* select by class */
+.first{
+    color: chartreuse;
+    background-color:red;
+}
+/* select by id */
+#second{
+    color: blueviolet;
+    background-color: cornflowerblue;
+}

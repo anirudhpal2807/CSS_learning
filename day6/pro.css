@@ -1,0 +1,22 @@
+/* *{
+    margin: 0;
+} */
+header{
+    background-color: aquamarine;
+    color: red;
+    text-align: center;
+    
+    position: fixed;
+    /* width: 100%; */
+    top:0px;
+    left: 0px;
+    right: 0px;
+  
+}
+main{
+    padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+}

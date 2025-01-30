@@ -1,0 +1,14 @@
+.img1{
+    height: 50vh;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.img2{
+    height: 50vh;
+    width: auto;
+    float: left;
+    clear: left;
+
+}

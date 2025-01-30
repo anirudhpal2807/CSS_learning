@@ -1,0 +1,20 @@
+/* body{
+    background-color: aquamarine;
+}
+/* universal selector */
+/* *{
+    color: brown;
+} */ 
+ /* h5,p{background-color: blue;}
+ h3[draggable="true"]{
+    background-color: beige;
+ } */
+  /* select by decendent */
+  section p{
+    background-color: rgb(196, 33, 33);
+  }
+  section div{color: aqua;}
+  /* select by child */
+  section>h6{
+    color: chartreuse;
+  }
